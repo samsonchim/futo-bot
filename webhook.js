@@ -34,7 +34,7 @@ app.post('/webhook', (req, res) => {
 
 /* Route handler for the root URL */
 app.get('/', (req, res) => {
-  res.send('Hello, this is the Facebook Chatbot webhook endpoint.');
+  res.send('tuxedo_cat');
 });
 
 /* Catch-all route handler for 404 errors */
